@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.renter_container{
+    width:84vw;
+   height:100%;
+   float:right; 
+   border:1px solid #ccc; 
+   background:#f1f1f1;
+
+}
+
+.renter_main{
+    height:100vh;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    background:#f1f1f1;
+    gap:4px;
+    flex-wrap:wrap;
+    margin:10px;
+    border:1px solid #ccc;
+
+
+}
+
+.renter_container .renter_main .renter_form{
+    background:#fff;
+    width:20vw;
+    height:500px;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+.renter_container .renter_main .renter_form .submit_group{
+    display:flex;
+    justify-content:flex-start;
+    gap:20px;
+}
+.renter_container .renter_main .renter_form .submit_group input[type="submit"]{
+    border:1px solid #ccc;
+    padding:5px 10px;
+    border-radius:4px;
+
+}
+
+
+.renter_container .renter_main .renter_form h4{
+    font-size:19px;
+    color:#444;
+    margin-bottom:10px;
+    background:#ddd;
+    padding:6px;
+}
+
+.renter_container .renter_main .renter_form form{
+    width:100%;
+    height:100%;
+
+
+}
+
+.renter_container .renter_main .renter_form form input[type="text"]{
+    width:100%;
+    padding:4px;
+    margin:10px 0px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:4px;
+
+    
+
+
+}
+
+.renter_container .renter_main .renterlist{
+    background:#fff;
+    width:53vw;
+    height:100%;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+}
+
+.renter_container .renter_main .renterlist form input[type="search"]{
+    width:50%;
+    height:40px;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+    border:1px solid #ccc;
+    
+}
+.renter_container .renter_main .renterlist h2{
+    color:#444;
+    background-color:#CDB699;
+    text-align:center;
+}
+
+.renter_container .renter_main .renterlist table{
+    width:100%;
+    height:auto;
+    border-collapse:collapse;
+    
+}
+
+
+.renter_container .renter_main .renterlist table thead tr td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:20px 0px;
+    font-weight:600;
+    font-size:16px;
+    color:grey;
+    padding:15px;
+
+}
+
+.renter_container .renter_main .renterlist table tbody tr td{
+    border-bottom:1px solid #ccc;
+    text-align:left;
+    padding:15px;
+
+}

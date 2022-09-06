@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.container{
+   width:100vw;
+   height:100%;
+   background-color:#ddd;
+   float:right;
+   border:1px solid #ccc; 
+
+}
+
+.main{
+    height:100vh;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    background:#f1f1f1;
+    gap:4px;
+    flex-wrap:wrap;
+    margin:10px;
+    border:1px solid #ccc;
+
+
+}
+
+.container .main .form{
+    background:#fff;
+    width:20vw;
+    height:500px;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+.container .main .form .submit_group{
+    display:flex;
+    justify-content:flex-start;
+    gap:20px;
+}
+.container .main .form .submit_group input[type="submit"]{
+    border:1px solid #ccc;
+    padding:5px 10px;
+    border-radius:4px;
+
+}
+
+
+.container .main .form h4{
+    font-size:19px;
+    color:#444;
+    margin-bottom:10px;
+    background:#ddd;
+    padding:6px;
+}
+
+.container .main .form form{
+    width:100%;
+    height:100%;
+
+
+}
+
+.container .main .form form input[type="text"]{
+    width:100%;
+    padding:4px;
+    margin:10px 0px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:4px;
+
+    
+
+
+}
+
+.container .main .renterlist{
+    background:#fff;
+    width:53vw;
+    height:100%;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+}
+
+.container .main .renterlist h2{
+    color:#444;
+    background-color:#ddd;
+}
+
+.container .main .renterlist table{
+    width:100%;
+    height:auto;
+    border-collapse:collapse;
+    
+}
+
+
+.container .main .renterlist table thead tr td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:20px 0px;
+    font-weight:600;
+    font-size:16px;
+    color:grey;
+    padding:15px;
+
+}
+
+.container .main .renterlist table tbody tr td{
+    border-bottom:1px solid #ccc;
+    text-align:left;
+    padding:15px;
+
+}

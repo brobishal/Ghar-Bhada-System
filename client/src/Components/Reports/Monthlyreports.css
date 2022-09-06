@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center;
+}
+
+.monthly_reports_list{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}

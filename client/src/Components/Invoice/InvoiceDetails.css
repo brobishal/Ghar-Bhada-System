@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.card_invoice_data_div{
+    float:right;
+    width:80vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+.invoice_data{
+    height:550px;
+    width:80%;
+    background-color:#ddd;
+    padding:50px;
+    
+ 
+}
+
+.columns_div_for_invoice{
+    display:flex;
+    justify-content:center;
+
+}
+
+
+.right_side_div{
+
+}
+
+.right_side_div .invoice_description{
+    width:400px;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    padding:20px;
+    font-size:17px;
+    gap:40px;
+}
+
+.invoice_description .description_left_side p{
+    font-size:17px;
+    
+}

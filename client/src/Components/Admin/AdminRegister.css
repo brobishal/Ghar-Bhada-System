@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.register_container{
+    width:100vw;
+    height:100vh;
+
+}
+.register_main{
+    width:100%;
+    height:100%;
+    background-color: #ddd;
+    display:flex;
+    justify-content:center;
+}
+
+.form_data{
+    background-color:#fff;
+    width:600px;
+    height:500px;
+    margin:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    box-shadow:1px 1px 3px #ddd;
+    box-shadow:1px 2px 11px 1px gray;
+
+}
+
+.form_data .myform h2{
+    text-align:left;
+    color:#444;
+    font-size:18px;
+}
+
+.myform{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color:#444;
+    font-size:17px;
+    
+}
+
+
+
+.myform .label1{
+    width:100%;
+    padding:20px;
+}
+
+
+.myform .label1 [type="name"], [type="email"], [type="email"],[type="password"]{
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    padding:20px;
+    margin:10px 0px;
+    font-weight:bold;
+    
+}
+/* .myform .label1  .text1{
+    margin:20px 0px;
+}
+
+.myform .label1  .text2{
+    margin:20px 0px;
+
+} */
+
+.myform .login_label{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:20px;
+    gap:10px;
+}
+/* .myform .login_label .input1 input[type="submit"]{
+    background-color:#C8F2EF;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+
+} */
+.myform .login_label .input2 input[type="submit"]{
+    width:150px;
+    height:40px;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.myform .login_label .input2 input[type="submit"]:hover{
+    background-color:#CDB699;
+    cursor:pointer;
+    
+}
+
+
+
+ 

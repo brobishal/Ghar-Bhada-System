@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.contact_form{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.main_contact{
+    width:600px;
+    height:500px;
+    background-color:#fff;
+    box-shadow:1px 1px 2px 4px #ccc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.contact_form_data{
+
+}
+ 
+.contact_form_data form .contact-form-name input[type="text"],[type="email"], [type="number"],[type="submit"]{
+    width:35%;
+    padding:4px;
+    margin:10px 0px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:4px;
+
+}

@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.houseowner_container{
+    width:84vw;
+    height:100%;
+   float:right;
+   border:1px solid #ccc; 
+   background:#f1f1f1;
+
+
+}
+
+.houseowner_main{
+    height:100vh;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    /* align-items:center; */
+    background:#f1f1f1;
+    gap:4px;
+    flex-wrap:wrap;
+    margin:10px;
+    border:1px solid #ccc;
+
+
+}
+
+.houseowner_container .houseowner_main .houseowner_form{
+    background:#fff;
+    width:20vw;
+    height:500px;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+    padding:20px;
+}
+
+.houseowner_container .houseowner_main .houseowner_form .submit_group{
+    display:flex;
+    justify-content:flex-start;
+    gap:20px;
+}
+.houseowner_container .houseowner_main .houseowner_form .submit_group input[type="submit"],[type="text"],[type="email"],
+[type="message"]{
+    border:1px solid #ccc;
+    padding:5px 10px;
+    border-radius:4px;
+
+}
+
+
+.houseowner_container .houseowner_main .houseowner_form h4{
+    font-size:19px;
+    color:#444;
+    margin-bottom:10px;
+    background:#ddd;
+    padding:6px;
+}
+
+.houseowner_container .houseowner_main .houseowner_form .houseowner_form{
+    width:100%;
+    height:100%;
+
+
+}
+
+.houseowner_form input[type="name"], [type="email"], [type="address"], [type="number"]{
+    width:100%;
+    padding:4px;
+    margin:10px 0px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.houseowner_form .submit_group [type="submit"]{
+    width:40%;
+    padding:4px;
+    margin:10px 0px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+.houseowner_form .submit_group [type="submit"]:hover{
+    background:#C3DBD9;
+    cursor:pointer;
+}
+
+.houseowner_container .houseowner_main .houseownerlist{
+    background:#fff;
+    width:53vw;
+    height:100%;
+    /* background-color:gray; */
+    border:1px solid #ccc;
+}
+
+
+.houseowner_container .houseowner_main .houseownerlist form input[type="search"]{
+    width:50%;
+    height:40px;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+    border:1px solid #ccc;
+    
+}
+.houseowner_container .houseowner_main .houseownerlist h2{
+
+    color:#444;
+    background-color:#CDB699;
+    text-align:center;
+}
+
+.houseowner_container .houseowner_main .houseownerlist table{
+    width:100%;
+    height:auto;
+    border-collapse:collapse;
+    
+}
+
+
+.houseowner_container .houseowner_main .houseownerlist table thead tr td{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:20px 0px;
+    font-weight:600;
+    font-size:16px;
+    color:grey;
+    padding:15px;
+
+}
+
+.houseowner_container .houseowner_main .houseownerlist table tbody tr td{
+    border-bottom:1px solid #ccc;
+    text-align:left;
+    padding:15px;
+
+}

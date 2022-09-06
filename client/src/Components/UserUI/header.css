@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.header{
+    background:#BB6464;
+    width:100vw;
+    height: 20vh;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    
+
+}
+
+.login ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    
+}
+
+.login ul li{
+    list-style:none;
+    padding:10px;
+    color:#fff;
+
+    
+}
+
+.login ul li:hover{
+    background-color:#CDB699;
+    color:#fff;
+}
+
+.login ul li a{
+text-decoration:none;
+padding:10px;
+color:#fff;
+font-size:16px;
+font-weight:500;
+text-transform:uppercase;
+text-align:right;
+
+}
+.login ul li a:hover{
+    color: #BB6464;
+}
+
+
+.img img{
+    width:100px;
+    height:100px;
+    padding:20px;
+    border-radius:50%;
+
+}
+
+.main_header ul li{
+    list-style:none;
+ 
+    
+}
+
+.main_header ul li a{
+    text-decoration:none;
+    padding:10px;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    text-transform:uppercase;
+
+}
+
+.main_header ul li a:hover{
+    background-color:#CDB699;
+    color:#BB6464;
+    
+}
+

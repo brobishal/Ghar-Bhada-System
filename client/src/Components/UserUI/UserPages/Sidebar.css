@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+.sidebar_container{
+        width:20%;
+        height:800px;
+        background-color:#ddd;
+        float:right;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+}
+
+.sidebar_main{
+    width:100%;
+    height:400px;
+    background-color:#fff;
+    margin:5px 0px
+}
+
+.sidebar_main h2{
+    font-weight:500;
+    font-size:20px;
+    text-align:center;
+    letter-spacing:1px;
+}
+.sidebar_recent{
+    width:100%;
+    height:300px;
+    background-color:#fff;
+    margin:5px 0px;
+
+
+}
+
+.sidebar_recent h2{
+    font-weight:500;
+    font-size:20px;
+    text-align:center;
+    letter-spacing:1px;
+    }
+
